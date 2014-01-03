@@ -1,0 +1,70 @@
+/*färger:
+E87EB8
+FF9EAF
+FFB1F9
+DB95E8
+E1ADFF
+
+
+
+*/
+body {
+	background-color: #e87eb8;
+}
+.nav {
+	background-color: #FFF;
+	width: 950px;
+	float: left;
+	border-top: 1px solid #E1ADFF;
+	border-bottom: 1px solid #E1ADFF;
+	
+}
+
+
+.nav li {
+	
+	margin: 5px;
+	list-style-type: none;
+	float: left;
+	
+}
+
+#container {
+	background-color: #FFF;
+	overflow: auto;
+	max-width: 960px;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding:5px;
+	
+}
+
+#content {
+	background-color: #FFF;
+	float: left;
+	width: 700px;
+	padding: 5px;
+	
+}
+
+
+
+#side1 {
+	background-color: #FFF;
+	float: left;
+	width: 160px;
+	padding: 5px;
+	
+	border-bottom: 1px solid #E1ADFF;
+	
+}
+
+#foot {
+	background-color: #E1ADFF;
+	float: left;
+	width: 950px;
+	padding: 5px;
+	border: 1px solid #E1ADFF;
+	border-radius: 8px;
+	
+}

@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="sv">
 	<head>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="../css/style.css" />
 		<link rel="stylesheet" media="print" href="../css/print.css" />
 		<meta charset="utf-8" />
@@ -8,13 +9,15 @@
 	</head>
 	<body>
 			<div id="container">
-			<div id="head">
+			<div class="header" id="head">
 			<h1>Bandet för brösten</h1>
+			<p><a href="../index.html">start</a></p>
 			</div>
 			
-			<div id="navigate">
+			<div class="nav" id="navigate">
 				<ul>
 					<li><a href="../index.html">Start</a></li>
+					<li><a href="news.html">Nyheter</a></li>
 					<li><a href="info.html">Information</a></li>
 					<li><a href="about.html">Om oss</a></li>
 					<li><a href="kontakt.html">Kontakta</a></li>
@@ -24,11 +27,7 @@
 		
 		
 			<div id="side1">
-			<p>
-			dfjshedrfsedfsheufhsieufhsiuefh iseufhiseuf uefhisuehfsef ushedfuisiefh suehfsiuefhgisuhg siurgisuhfisufh sufgisuhf
-			suefhisudhfsi sudfgisuehfsie sjugsiuhf siurgfis se s ef  efs efsieufhsef sieufh sieuf siuf iuf gsiurfgis urfisuerf g
-			sleuif lsierufls sliuerfls sl iufgsliue foirfhsoief sorufshgf osierhfsoeif soeif soesoeif osiefhs oeifrwes orighrg
-			</p>
+			
 			</div>
 			
 			
@@ -38,19 +37,27 @@
 			suefhisudhfsi sudfgisuehfsie sjugsiuhf siurgfis se s ef  efs efsieufhsef sieufh sieuf siuf iuf gsiurfgis urfisuerf g
 			sleuif lsierufls sliuerfls sl iufgsliue foirfhsoief sorufshgf osierhfsoeif soeif soesoeif osiefhs oeifrwes orighrg
 			</p>
+			<form name="?" method="post" action="?">
+			<ul>
+				<li>
+				<label for="namnruta">Namn</label>
+				<input placeholder="Ditt namn" type="text" name="namnruta" id="namnruta" value=""/>
+				</li>
+				<li>
+				<label for="mail">E-post</label>
+				<input placeholder="Din mail adress" required type="text" name="mail" id="mail" value=""/>
+				</li>
+				<li>
+				<textarea placeholder="Skriv ditt medelande här" required rows="5" cols="40" id="medelanderuta"></textarea>
+				</li>
+			<li><input type="submit" value="Skicka"/></li>
+			</ul>
+			</form>
 		
 			</div>
 			
 			
-			<div id="side2">
-			<p>
-			dfjshedrfsedfsheufhsieufhsiuefh iseufhiseuf uefhisuehfsef ushedfuisiefh suehfsiuefhgisuhg siurgisuhfisufh sufgisuhf
-			suefhisudhfsi sudfgisuehfsie sjugsiuhf siurgfis se s ef  efs efsieufhsef sieufh sieuf siuf iuf gsiurfgis urfisuerf g
-			sleuif lsierufls sliuerfls sl iufgsliue foirfhsoief sorufshgf osierhfsoeif soeif soesoeif osiefhs oeifrwes orighrg
-			</p>
-			</div>
-			
-			<div id="foot">
+			<div class="footer" id="foot">
 			<p>Ansvarig för materialet på denna sida är Julia Petersson.</p>
 			</div>
 		
