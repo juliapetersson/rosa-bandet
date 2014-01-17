@@ -13,6 +13,9 @@ body {
 	
 }
 
+#head h1 {
+	letter-spacing: 5px;
+}
 
 #head li {
 	
@@ -24,14 +27,19 @@ body {
 
 #head a{
 	background-image: url("pics/bandet.png");
-	width: 42px;
-	height: 78px;
+	width: 38px;
+	height: 89px;
 	display: block;
 	text-indent: -1000px;
 	
 }
+
 #start-ikon {
 	background-position: 0px 0px;
+}
+
+#start-ikon:hover {
+	background-position: 38px 0px;
 }
 
 .nav {
@@ -52,6 +60,13 @@ body {
 	
 }
 
+.nav li .active {
+	background-color: #d8e1f2;
+	border: 2px solid #d8e1f2;
+	border-radius: 8px;
+	
+}
+
 #container {
 	/*opacity:0.9;*/
 	background-color: #FFF;
@@ -67,8 +82,11 @@ body {
 	background-color: #FFF;
 	float: left;
 	width: 700px;
-	padding: 5px;
-	opacity:0.9;
+	padding: 10px;
+	border-left: 1px solid #E1ADFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
 }
 
 .nyheter {
@@ -76,8 +94,9 @@ body {
 	padding: 5px;
 }
 
+
 .nyheter h4 {
-	color: green;
+	color: #fa99b6;
 	font-style: italic;
 }
 
@@ -95,7 +114,45 @@ body {
 	
 }
 
+#side1 p {
+	margin-left: 20px;
+	font-size: 13px;
+}
+
+#side1 li {
+	list-style-type: none;
+}
+
+#arkiv {
+	border-bottom: 1px solid #E1ADFF;
+}
+
+#arkiv h4 {
+	margin-left: 40px;
+}
+
+#kommande h4 {
+	margin-left: 40px;
+}
+
+#kommande a {
+	color: #000;
+	text-decoration: none;
+}
+
+#kontakt li {
+	list-style-type: none;
+	margin: 10px;
+}
+
+.submitButton {
+	background-color: #fbdbe7;
+	border: 2px solid #fbdbe7;
+	border-radius: 8px;
+}
+
 #foot {
+	
 	background-color: #E1ADFF;
 	float: left;
 	width: 950px;
