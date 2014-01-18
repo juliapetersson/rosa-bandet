@@ -1,0 +1,80 @@
+/*färger:
+E87EB8
+FF9EAF
+FFB1F9
+DB95E8
+E1ADFF
+
+
+
+*/
+#head {
+	display: none;
+	
+}
+
+/* Navigation*/
+#navigate {
+	display: none;
+}
+
+
+#container {
+	
+	background-color: #FFF;
+	overflow: auto;
+	max-width: 960px;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding:5px;
+	
+}
+
+#content {
+	background-color: #FFF;
+	float: left;
+	width: 700px;
+	padding: 10px;
+	border-left: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.nyheter {
+	border-top: 1px solid #FFF;
+	padding: 5px;
+}
+
+
+.nyheter h4 {
+	color: #000;
+	font-style: italic;
+}
+
+.right {
+	float: right;
+}
+
+#side1 {
+	display: none;
+	
+}
+
+
+
+#kontakt li {
+	list-style-type: none;
+	margin: 10px;
+}
+
+.submitButton {
+	
+	border: 2px solid #fff;
+	border-radius: 8px;
+}
+
+#foot {
+	
+	display: none;
+}

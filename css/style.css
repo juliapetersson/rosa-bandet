@@ -12,7 +12,7 @@ body {
 	background-image: url("pics/bg.png");
 	
 }
-
+/*header*/
 #head h1 {
 	letter-spacing: 5px;
 }
@@ -24,11 +24,13 @@ body {
 	float: left;
 	
 }
+/*slut header*/
 
+/*stripes*/
 #head a{
-	background-image: url("pics/bandet.png");
-	width: 38px;
-	height: 89px;
+	background-image: url("pics/tutti.png");
+	width: 110px;
+	height: 112px;
 	display: block;
 	text-indent: -1000px;
 	
@@ -39,9 +41,114 @@ body {
 }
 
 #start-ikon:hover {
-	background-position: 38px 0px;
+	background-position: 111px 0px;
 }
 
+#omoss a{
+	background-image: url("pics/stripe1.png");
+	width: 163px;
+	height: 147px;
+	display: block;
+	text-indent: -1000px;
+	
+}
+
+#ombutt {
+	background-position: 163px 0px;
+}
+
+#ombutt:hover {
+	background-position: 163px 295px;
+}
+
+#mail a{
+	background-image: url("pics/stripe1.png");
+	width: 163px;
+	height: 148px;
+	display: block;
+	text-indent: -1000px;
+	
+}
+
+#mailbutt {
+	background-position: -90px 0px;
+}
+
+#mailbutt:hover {
+	background-position: -90px 296px;
+}
+
+#nblogg a{
+	background-image: url("pics/stripe1.png");
+	width: 163px;
+	height: 148px;
+	display: block;
+	text-indent: -1000px;
+	
+}
+
+#newsbutt {
+	background-position: 163px -148px;
+}
+
+#newsbutt:hover {
+	background-position: 163px 148px;
+}
+
+#donera a{
+	background-image: url("pics/stripe1.png");
+	width: 162px;
+	height: 143px;
+	display: block;
+	text-indent: -1000px;
+	
+}
+
+#donbutt {
+	background-position: -88px -148px;
+}
+
+#donbutt:hover {
+	background-position: -88px 148px;
+}
+
+#information a{
+	background-image: url("pics/stripe1.png");
+	width: 88px;
+	height: 291px;
+	display: block;
+	text-indent: -1000px;
+	
+}
+
+#infobutt {
+	background-position: 0px 0px;
+}
+
+#infobutt:hover {
+	background-position: 0px 291px;
+}
+
+#fonden a{
+	background-image: url("pics/bandet.png");
+	width: 98px;
+	height: 236px;
+	display: block;
+	text-indent: -1000px;
+	
+}
+
+#fondbutt {
+	background-position: 0px 0px;
+}
+
+#fondbutt:hover {
+	background-position: 100px 0px;
+}
+
+/*slut stripes*/
+
+/*meny*/
 .nav {
 	background-color: #FFF;
 	width: 950px;
@@ -67,8 +174,10 @@ body {
 	
 }
 
+/*slut meny*/
+
 #container {
-	/*opacity:0.9;*/
+	
 	background-color: #FFF;
 	overflow: auto;
 	max-width: 960px;
@@ -88,7 +197,7 @@ body {
 	margin-bottom: 20px;
 
 }
-
+/*nyhetsblogg*/
 .nyheter {
 	border-top: 1px solid #E1ADFF;
 	padding: 5px;
@@ -103,7 +212,55 @@ body {
 .right {
 	float: right;
 }
+/*slut nyhetsblogg*/
 
+/*index navigation*/
+.navruta {
+	
+	height:100px;
+	margin-bottom: 20px;
+	width: 200px;
+	padding-left: 20px;
+}
+.navruta1 {
+	
+	height:100px;
+	margin-bottom: 50px;
+	width: 450px;
+}
+
+#omoss {
+	float: left;
+}
+
+#mail {
+	float: left;
+	
+}
+
+#information {
+	float: right;
+	margin-right: 13px;
+	
+}
+
+#nblogg {
+	float: left;
+}
+
+#donera {
+	float: left;
+	
+}
+
+#fonden {
+	float: right;
+	margin-top: 20px;
+	margin-right: 80px;
+}
+/*slut index navigation*/
+
+/*sidocolumn*/
 #side1 {
 	background-color: #FFF;
 	float: left;
@@ -139,7 +296,9 @@ body {
 	color: #000;
 	text-decoration: none;
 }
+/*slut sidocolumn*/
 
+/*kontakt/donation*/
 #kontakt li {
 	list-style-type: none;
 	margin: 10px;
@@ -150,7 +309,9 @@ body {
 	border: 2px solid #fbdbe7;
 	border-radius: 8px;
 }
+/*slut kontakt/donation*/
 
+/*footer*/
 #foot {
 	
 	background-color: #E1ADFF;
@@ -162,3 +323,4 @@ body {
 	font-size: 12px;
 	font-style: italic;
 }
+/*slut footer*/
