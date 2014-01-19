@@ -11,7 +11,7 @@
 			<div id="container">
 			<div class="header" id="head">
 			<ul>
-			<li><h1>Bandet för brösten</h1></li>
+			<li><h1>Hjärtat för brösten</h1></li>
 			<li><p><a id="start-ikon" href="../index.html">start</a></p></li>
 			</ul>
 			</div>
@@ -27,10 +27,13 @@
 				</ul>
 			</div>
 		
+			<div id="sidkontakta">
+				<p>Kontakta</p>
+				</div>
 		
 			<div id="side1">
 			<div id="kommande">
-			<a href="news.html"><h4>Nyheter</h4></a>
+			<a id="sidbutt" href="news.html">Nyheter</a>
 			<ul>
 			<li><img src="../pics/breastT.png" alt="Bild på t-shirt med bröst motiv" id="breast"/></a></li>
 			<li><img src="../pics/bandt.png" alt="Bild på t-shirt med rosaband motiv" id="bandet"/></a></li>
@@ -48,13 +51,17 @@
 				<fieldset>
 				<legend>Maila oss</legend>
 				</fieldset>
-				<label for="namnruta">Namn</label>
+				
 				<input placeholder="Ditt namn" type="text" name="namnruta" id="namnruta" value=""/>
+				<label for="namnruta">(ex:Anna Andresson)</label>
 				</li>
 				<li>
-				<label for="mail">E-post</label>
+				<label for="epost">(ex:dittnamn@mail.com)</label>
 				<input placeholder="Din mail adress" required type="text" name="mail" id="mail" value=""/>
 				</li>
+				<li><input type="radio" name="group1" value="" checked="checked" />Fråga</li>
+				<li><input type="radio" name="group1" value="" />Åsikt</li>
+				<li><input type="radio" name="group1" value="" />Annat</li>
 				<li>
 				<textarea placeholder="Skriv ditt medelande här" required rows="5" cols="40" id="medelanderuta"></textarea>
 				</li>
