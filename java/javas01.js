@@ -18,7 +18,7 @@ a.onclick = function () {
 	}
 	else{
    
-	alert("Tcka för din donering!");
+	alert("Tack för din donering!");
 	p.innerHTML = ("Du har donerat ")+ input.value +svenska;
    
 	}
